@@ -5,7 +5,9 @@
 <h1>My first PHP page</h1>
 
 <?php
-echo "Hello Everybody!!!!";
+$color = "blue";
+echo "My eyes are ". $color . "." . "<br>";
+echo "My eyes are " , "red" . ".";
 ?>
 
 </body>
